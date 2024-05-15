@@ -1,17 +1,17 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Qualquer"      # Project title
+  author:       "Qualquer"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "QualquerQualquer"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_gravacao"
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -20,34 +20,34 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Qualquer"
+  ui[1]: "Qualquer"
+  ui[2]: "Qualquer"
+  ui[3]: "Qualquer"
+  ui[4]: "Qualquer"
+  ui[5]: "Qualquer"
+  ui[6]: "Qualquer"
+  ui[7]: "Qualquer"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "Qualquer"
+  uo[1]: "Qualquer"
+  uo[2]: "Qualquer"
+  uo[3]: "Qualquer"
+  uo[4]: "Qualquer"
+  uo[5]: "Qualquer"
+  uo[6]: "Qualquer"
+  uo[7]: "Qualquer"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "Qualquer"
+  uio[1]: "Qualquer"
+  uio[2]: "Qualquer"
+  uio[3]: "Qualquer"
+  uio[4]: "Qualquer"
+  uio[5]: "Qualquer"
+  uio[6]: "Qualquer"
+  uio[7]: "Qualquer"
 
 # Do not change!
 yaml_version: 6
